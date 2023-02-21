@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: print alphabets lowercase and uppercase
+ * Description: 'print alphabets lowercase and uppercase'
  * Return: always 0
  */
 int main(void)
@@ -14,12 +14,11 @@ int main(void)
 		putchar(n);
 		n++;
 	}
-	while (n <= 90)
+	while (m <= 90)
 	{
-		putchar(n);
-		n++;
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
-
 	return (0);
 }
