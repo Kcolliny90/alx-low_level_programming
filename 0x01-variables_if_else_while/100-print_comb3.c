@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
- * Description: program that prints all possible different combinations
+ * main - Prints all possible different combinations
  * Two digits must be different
  * The two digits must be different
  * Numbers must be separated by ,, followed by a space
  * Numbers should be printed in ascending order, with two digits
  * Only use the putchar function
  * Only use putchar five times maximum in code
- * Return 0;
+ * Return: 0
  */
 int main(void)
 {
