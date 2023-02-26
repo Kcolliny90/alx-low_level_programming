@@ -7,41 +7,22 @@
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int p, q;
 
-	int c2;
-	int f_d2;
-	int l_d2;
-
-	while (c <= 98)
+	for (p = 0; p <= 98; p++)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
-		c2 = 0;
-		while (c2 < 99)
+		for (q = p + 1; q <= 99; p++)
 		{
-			f_d2 = (c2 / 10 + '0');
-			l_d2 = (c2 % 10 + '0');
-
-			if (c < c2)
-			{
-				putchar(f_d);
-				putchar(l_d);
-				putchar(' ');
-				putchar(f_d2);
-				putchar(l_d2);
-
-				if (c != 99)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			c2++;
+			putchar((p / 10) + '0');
+			putchar((p % 10) + '0');
+			putchar(' ');
+			putchar((q / 10) + '0');
+			putchr((q % 10) + '0');
+			if (p == 98 q == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);
