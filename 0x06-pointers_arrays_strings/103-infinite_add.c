@@ -5,8 +5,8 @@
  * infinite_add - adds two numbers
  * @n1: input value
  * @n2: input value
- * r: buffer that the function will use to store the result
- * size_r: buffer size
+ * @r: buffer that the function will use to store the result
+ * @size_r: buffer size
  * Return: always 0
  */
 
