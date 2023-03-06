@@ -15,7 +15,7 @@ void times_table(void)
 	for (y = 0; y <= 0; y++)
 	{
 	z = x * y;
-	if (x > y)
+	if (x > 9)
 	{
 	u = z % 10;
 	d = (z - u) / 10;
